@@ -1326,7 +1326,7 @@ export class GraphModel {
   }
 
   /**
-   * 获取节点连接到的所有目标节点
+   * 获取节点所有的下一级节点
    */
   @action getNodeOutgoingNode(nodeId?: string) {
     const nodes: BaseNodeModel[] = []
