@@ -253,5 +253,16 @@ export default defineConfig({
         },
       ],
     },
+    {
+      name: 'bestPractices',
+      path: '/bestPractices',
+      routes: [
+        {
+          path: '/bestPractices/ai-flow',
+          name: 'AI 工作流',
+          component: './bestPractices/ai-flow',
+        },
+      ],
+    },
   ],
 })
